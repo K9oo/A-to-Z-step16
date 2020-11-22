@@ -31,7 +31,7 @@ class TelloUI:
         
         # control variables
         self.distance = 1  # default distance for 'move' cmd ----
-        self.degree = 30  # default degree for 'cw' or 'ccw' cmd
+        self.degree = 90  # default degree for 'cw' or 'ccw' cmd
         # if the pose recognition mode is opened 
         self.pose_mode = False        
         # if the flag is TRUE,the auto-takeoff thread will stop waiting for the response from tello
