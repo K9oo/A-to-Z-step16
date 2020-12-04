@@ -30,7 +30,7 @@ class TelloUI:
         self.stopEvent = None  
         
         # control variables
-        self.distance = 0.5  # default distance for 'move' cmd ----
+        self.distance = 0.4  # default distance for 'move' cmd ----
         self.degree = 90  # default degree for 'cw' or 'ccw' cmd
         # if the pose recognition mode is opened 
         self.pose_mode = False        
