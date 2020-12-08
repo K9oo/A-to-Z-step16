@@ -31,9 +31,9 @@ class Tello_Pose:
         # count the number of frames,and after every certain number of frames
         # is read, frame_cnt will be cleared and recounted.
         self.frame_cnt = 0 
-        self.arm_down_45_cnt = 0 # count numbers of the arm_dowm_45 captured in every certain number of frames
-        self.arm_flat_cnt = 0    # count numbers of the arm_flat captured in every certain number of frames
-        self.arm_V_cnt = 0       # count numbers of the arm_V captured in every certain number of frames
+        self.arm_down_45_cnt = 0.5 # count numbers of the arm_dowm_45 captured in every certain number of frames
+        self.arm_flat_cnt = 0.5    # count numbers of the arm_flat captured in every certain number of frames
+        self.arm_V_cnt = 0.5       # count numbers of the arm_V captured in every certain number of frames
         
         # the period of pose reconigtion,it depends on your computer performance 
         self.period = 0
